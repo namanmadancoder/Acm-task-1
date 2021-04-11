@@ -1,0 +1,370 @@
+*{
+    
+    margin: 0;
+    padding:0;
+}
+:root{
+    --navbar-height: 60px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 50px;
+    justify-content: center;
+    height: 100px;
+    box-shadow: 11px 10px 24px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 10px 24px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 10px 24px -2px rgba(0,0,0,0.75);
+  
+
+}
+
+#navbar ul{
+    display: flex;
+
+}
+.item{
+    display: flex;
+}
+
+#logo {
+
+    margin: 20px;
+    margin-right: 300px;
+    margin-left: 20px;
+    height: 50%;
+    width: 60%;
+    padding: 10px;
+
+}
+
+#navbar ul li{
+   list-style: none;
+   font-size: 1.2rem;
+   margin-left: 100px;
+   
+
+}
+#navbar ul li a{
+
+   height: 100%;
+   width: 100%;
+
+   border-radius: 20px;
+   box-sizing: border-box;
+     
+   padding-right: 20px;
+    border-radius: 0%;
+
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+
+}
+#navbar::before{
+    content: "";
+    margin-left: auto;
+    height: 100%;
+    width: 100%;
+    
+background-image:linear-gradient(to right, rgb(15, 158, 134) , rgb(175, 243, 97)); ;
+position: absolute;
+z-index: -1;
+opacity: 1;
+
+}
+#navbar ul li a:hover{
+    
+      background-color: rgba(255, 255, 255, 0.986);
+    opacity:1;
+    text-decoration: none;
+    color: rgb(255, 175, 4);
+
+
+
+}
+#container1 {
+    display: flex;
+    flex-direction: column;
+
+}
+#container1::before{
+    content: "";
+    position: absolute;
+    background: url('main-pic.jpg') no-repeat center center/cover;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+opacity: 0.89;
+
+}
+#dabba::before{
+    align-items: center;
+    content: "";
+    /* background: url('bg1.jpg')no-repeat center center/cover; */
+    background-color: rgb(228, 228, 228);
+    position: absolute;
+     display: flex;
+     height: 325%;
+     width: 70%;
+     position: absolute;
+    padding: 100px;
+    margin-left: 210px;
+    margin-top: 180px;
+    z-index: -1;
+    box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-webkit-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-moz-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+        
+}
+     .cards{
+        display: flex;
+        flex-direction: column;
+       
+        box-sizing: border-box;
+      
+         margin-right: 250px;
+       
+
+     
+    }
+    .card{
+        background-color: rgb(253, 253, 253);
+        box-sizing: border-box;
+        margin-left: 320px;
+  
+       height:42rem ;
+        width: 50rem;
+        
+        margin-top: 100px;
+        padding: 100px;
+        border: solid rgb(228, 213, 213);
+        box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-webkit-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-moz-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+        
+
+        
+    } 
+    #potraits{
+        /* width: 10%;
+        height: 60%; */
+        border-radius: 80% ;
+        padding: 100px;
+        max-width: 1%;
+        
+    
+
+    }
+    .img{
+        margin-left: 215px;
+        margin-top: -190px;
+   padding: auto;
+   max-width: 1%;
+   
+       
+    }
+    .card h3{
+        margin-left: 200px;
+        margin-top: 20px;
+
+    }
+    .card h5{
+        margin-left: 171px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        
+        
+
+
+
+        
+    }
+    .card h1{
+        max-width: max-content;
+      
+        font-size: 2rem;
+        margin-left: 80px;
+        font-weight: normal;
+        margin-bottom: 10px;
+
+        
+
+        
+    }
+    #cont{
+        display: flex;
+        flex-direction: row;
+       
+        margin-left: 15px;
+        border-radius: 5px;
+    }
+    #thumbs img{
+        width: 85%;
+        height:90%;
+      
+        border-radius: -50%;
+        margin-left: 10px;
+       
+
+    }
+    #stars img{
+        width: 90%;
+        height: 45%;
+        margin-top: 10px;
+        margin-left: 70px;
+       
+    }
+    .btn1{
+        margin-left: 160px;
+        padding: 10px;
+        width: 30%;
+        height: 20%;
+       background-color: aqua;
+       
+        border-radius: 5px;
+
+
+    }
+    .ratings {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+        
+
+
+.dropdown-menu{
+    background-color: rgb(230, 230, 144);
+    border: 2px solid yellowgreen;
+    width: 100%;
+    height: 8rem;
+    resize: none;
+    margin: auto;
+    outline:none;
+    border-radius: 5px;
+
+}
+#submitBtn{
+    height: 2.2rem;
+    width: 8rem;
+    border-radius: 5px;
+    background-color: grey; 
+    border: 1px solid;
+    color: white;
+
+
+}
+#submitBtn2{
+    height: 2.2rem;
+    width: 8rem;
+    border-radius: 5px;
+    background-color: grey; 
+    border: 1px solid;
+    color: white;
+
+
+}
+#submitBtn3{
+    height: 2.2rem;
+    width: 8rem;
+    border-radius: 5px;
+    background-color: grey; 
+    border: 1px solid;
+    color: white;
+
+
+}
+#submitBtn4{
+    height: 2.2rem;
+    width: 8rem;
+    border-radius: 5px;
+    background-color: grey; 
+    border: 1px solid;
+    color: white;
+
+
+}
+
+
+
+.cardC{
+    display: flex;
+    border: 2px solid rgb(156, 156, 224);
+    border-radius: 3px;
+    height: 18rem;
+    background:url('card.jpg')no-repeat center center/cover;
+    box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-webkit-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-moz-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+        
+}
+#commentSect{
+   
+    align-items: center;
+}
+#commentSect h2{
+    margin-left: 600px; 
+    margin-top: 50px;
+   font-weight:bolder ;
+
+}
+
+
+#image1{
+    border-radius: 100px;
+   
+}
+#image2{
+    border-radius: 100px;
+    
+}
+#image3{
+    border-radius: 100px;
+    
+}
+#image4{
+    border-radius: 100px;
+    
+}
+#myBtn{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 3px;
+   border: 1px solid white;
+    margin-bottom: 20px;
+    background-color: white;
+
+}
+#myBtn2{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 3px;
+   border: 1px solid white;
+    margin-bottom: 20px;
+    background-color: white;
+
+}
+#myBtn3{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 3px;
+   border: 1px solid white;
+    margin-bottom: 20px;
+    background-color: white;
+
+}
+#myBtn4{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 3px;
+   border: 1px solid white;
+    margin-bottom: 20px;
+    background-color: white;
+
+}
+
+
+
+
