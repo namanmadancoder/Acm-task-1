@@ -507,7 +507,7 @@ opacity: 0.89;
 #navbar{
     overflow: hidden;
     position: fixed;
-  top: 0;
+    top: 0;
     
     justify-content: center;
     height:7rem;

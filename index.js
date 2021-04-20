@@ -269,6 +269,14 @@ function Expander() {
     }
 
   }
+  function myBakki() {
+    var x = document.getElementById("Bakkida");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 
   
 
