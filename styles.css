@@ -1,7 +1,9 @@
+
 *{
     
     margin: 0;
     padding:0;
+    box-sizing: border-box;
 }
 :root{
     --navbar-height: 60px;
@@ -365,6 +367,203 @@ opacity: 0.89;
 
 }
 
+@media screen and (max-width:570px){
+    .body {
+    
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+      }
+    .card{
+        background-color: rgb(253, 253, 253);
+        box-sizing: border-box;
+        margin-left:  9rem;
+  
+       height:40rem ;
+        width: 35rem;
+        
+        margin-top: 6rem;
+        padding: 1rem;
+        border: solid rgb(228, 213, 213);
+        box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-webkit-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-moz-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+        
+
+
+}
+.img{
+    margin-left: 12.8rem;
+    margin-top: -6rem;
+    
+
+
+}
+#potraits{
+    width: 10%;
+    height: 60%;
+    border-radius: 500%;
+    padding: 10rem;
+
+
+    
+}
+.card h1{
+  
+  
+    font-size: 1rem;
+    margin-left:9rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+
+}
+#name1{
+margin-left: 13rem;
+font-size: 1.2rem;
+}
+#name2{
+    margin-left: 12.5rem;
+font-size: 1.2rem;
+    
+}
+#name3{
+    margin-left: 11.1rem;
+font-size: 1.2rem;margin-left: 11.1rem;
+
+    
+}
+#date1{
+    margin-left: 9rem;
+}
+#date2{
+    margin-left: 9rem;
+}
+#date3{
+    margin-left: 8.5rem;
+}
+
+
+
+
+
+#dabba::before{
+    align-items: center;
+    content: "";
+    /* background: url('bg1.jpg')no-repeat center center/cover; */
+    background-color: rgba(255, 198, 198, 0.932);
+    position: absolute;
+     display: flex;
+     height: 170rem;
+     width: 180%;
+     position: absolute;
+    
+    margin-left: 4rem;
+  opacity: 0;
+    z-index: -1;
+    box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-webkit-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-moz-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+}
+#commentSect{
+margin-left: -15rem;
+font-size: 1rem;
+font-weight: 200;
+height: 10rem;
+
+
+}
+#line{
+    width: 70rem;
+}
+#comments{
+    margin-left:15rem;
+
+    display: flex;
+    flex-direction: row;
+}
+.cardC{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(156, 156, 224);
+    border-radius: 3px;
+    height: 18rem;
+    width: 200%;
+    margin-left: 30rem;
+    background:url('card.jpg')no-repeat center center/cover;
+    box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-webkit-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+-moz-box-shadow: 12px 10px 5px -5px rgba(0,0,0,0.51);
+        
+}
+#container1::before{
+    content: "";
+    position: absolute;
+    background: url('main-pic.jpg') no-repeat center center/cover;
+    height: 600%;
+    width: 220%;
+    position: absolute;
+    z-index: -1;
+opacity: 0.89;
+
+}
+#navbar{
+    overflow: hidden;
+    position: fixed;
+  top: 0;
+    
+    justify-content: center;
+    height:7rem;
+    width:103% ;
+    margin-top: -1rem;
+    margin-left: -1.3rem;
+    z-index: +1;
+
+    box-shadow: 11px 10px 24px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 10px 24px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 10px 24px -2px rgba(0,0,0,0.75);
+  
+}
+#navbar ul {
+    margin-left: -7rem;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    
+ 
+ }
+ #navbar ul li a{
+ 
+    height: 100%;
+    width: 100%;
+ 
+    border-radius: 20px;
+    box-sizing: border-box;
+      
+    padding-right: 10px;
+     border-radius: 0%;
+ 
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+ 
+ }
+ #logo {
+
+    
+    margin-right: 5rem;
+  
+    height: 15rem;
+    width: 12rem;
+    padding: 10px;
+
+}
+.cards{
+    margin-top: 15rem;
+}
+}
+ 
+        
+            
+    
 
 
 

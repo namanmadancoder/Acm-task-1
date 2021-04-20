@@ -105,7 +105,6 @@ function showComments(){
                           
          <div class="cardC-body">
            <h5 class="cardC-title"> Review Comment ${index + 1}</h5>
-
            <p class="cardC-text">${element}</p>
            <br>
            <br>
@@ -270,10 +269,6 @@ function Expander() {
     }
 
   }
-  
-
-
-
 
   
 
